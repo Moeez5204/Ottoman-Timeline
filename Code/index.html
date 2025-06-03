@@ -8,17 +8,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Ottoman Empire Interactive Timeline</h1>
+    <h1>Ottoman Empire Historical Atlas</h1>
     <div class="container">
-        <div id="timeline-container">
-            <h2>Timeline</h2>
-            <div id="timeline"></div>
+        <!-- Main Content (Left now) -->
+        <div id="main-content">
+            <!-- Map -->
+            <div id="map-container">
+                <h2 id="current-century">13th-14th Century</h2>
+                <div id="map"></div>
+            </div>
+            
+            <!-- Timeline -->
+            <div id="timeline-container">
+                <h3>Key Events</h3>
+                <div id="timeline"></div>
+            </div>
         </div>
-        <div id="map-container">
-            <h2>Historical Borders</h2>
-            <div id="map"></div>
+
+        <!-- Century Selector (Right now) -->
+        <div id="century-selector">
+            <h2>Select Century</h2>
+            <div class="century-list">
+                <div class="century active" data-century="13th">13th-14th</div>
+                <div class="century" data-century="15th">15th</div>
+                <div class="century" data-century="16th">16th</div>
+                <div class="century" data-century="17th">17th</div>
+                <div class="century" data-century="18th">18th</div>
+                <div class="century" data-century="19th">19th-20th</div>
+            </div>
         </div>
     </div>
+
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="script.js"></script>
 </body>
