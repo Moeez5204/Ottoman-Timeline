@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ottoman Empire at Peak (1683)",
+        "century": "17th"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [26, 46], [44, 46], [44, 30], [26, 30], [26, 46]
+        ]]
+      }
+    }
+  ]
+}
